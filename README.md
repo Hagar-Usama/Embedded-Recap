@@ -9,7 +9,7 @@
 ## Contents
 * [x] [Assembly Language Programming][10]
 * [ ] I/O Programming
-* [ ] Addressing Modes
+* [ ] [Addressing Modes][30]
 * [ ] Programming in C
 * [ ] Hardware Connection & Intel Hex file
 * [ ] [Timer Programming][20]
@@ -214,7 +214,20 @@ MOV   SP,     #08
 
 ## Addressing Modes
 
+[!addressing-modes][21]
+
+[21]: https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Addressing%20Modes/Addressing%20Modes_detailed.jpg
+
+
 #### SFR ( Special Function Registers) [80H - FFH]
+
+[!SFR1][22]
+[!SFR2][23]
+
+[22]:https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Addressing%20Modes/SFR1.png
+[23]:https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Addressing%20Modes/SFR2.png
+
+
 * A --> 0E0H
 * B --> 0F0H
 
@@ -236,6 +249,22 @@ MOVC    A,    @A + DPTR
 #### Bit Addresses
 * bit-addressable RAM location is 20-2FH
 * P0 -P3 are bit addressable
+
+[!bit-address1][24]
+[!i-o bit addresses1][25]
+[!i-o bit addresses2][26]
+
+[24]: https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Addressing%20Modes/bit-addressable.png
+[25]: https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Addressing%20Modes/i-o%20port%20addresses1.png
+[26]: https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Addressing%20Modes/i-o%20port%20addresses2.png
+
+#### single bit instructions
+[!single bit inst][27]
+[!bit directive][28]
+
+[27]: https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Addressing%20Modes/single-bit%20inst.png
+[28]: https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Addressing%20Modes/bit%20directive.png
+
 
 ## Timer Programming
 
@@ -293,3 +322,4 @@ MOV  R5,     TH0
 # References
 [10]: https://github.com/Hagar-Usama/Embedded-Recap#8051-assembly-language-programming
 [20]: https://github.com/Hagar-Usama/Embedded-Recap#timer-programming
+[30]: https://github.com/Hagar-Usama/Embedded-Recap#addressing-modes
