@@ -225,6 +225,7 @@ MOV  R5,     TH0
 ```
 
 * TMOD (timer mode), is used to set the various timer operation modes
+
 |D7|D6|D5|D4|D3|D2|D1|D0|
 |:--|:--|:--|:--|:--|:--|:--|:--|
 |Gate|C/T'|M1|M0|Gate|C/T'|M1|M0|
