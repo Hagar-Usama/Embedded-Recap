@@ -1,0 +1,24 @@
+---
+title: "Serial Communication"
+author: "Hagar Usama"
+date: "6/13/2020"
+output: html_document
+---
+
+You can turn parallel sections to tabs in `html_document` output.
+
+## Serial Communication {.tabset}
+
+### Intro
+
+
+![image](https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Serial%20Communication/Serial%20Communication.jpg)
+
+
+### RS232
+
+
+### Software
+
+
+### Registers
