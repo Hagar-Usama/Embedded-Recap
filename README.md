@@ -321,6 +321,9 @@ MOV  R5,     TH0
 
 ## Serial Communication
 
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Serial%20Communication/Serial%20Communication.jpg width="400" height="400">
+
+
 * bps = baud rate (the rate of data transfer)
 * Standard interfacing RS232
 * MAX232 (convert RS232 to TTL levels) [charge bump]
@@ -330,7 +333,34 @@ MOV  R5,     TH0
   * Hyperterminal
   * Serialterminal
 
+### RS232
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Serial%20Communication/RS232%20DB-25%201.png width="400" height="400">
 
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Serial%20Communication/RS232%20DB-9%202.png width="400" height="400">
+
+### Registers in Use
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Serial%20Communication/Registers%20in%20Serial%20Comm.jpg width="400" height="400">
+
+```Assembly
+MOV   SBUF,  #'D'
+MOV   SBUF,  A
+MOV   A,     SBUF
+```
+
+#### SCON
+
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Serial%20Communication/SCON_bits.png width="400" height="400">
+
+##### Modes
+| SM0 | SM1 |     |
+| :---| :---| :---|
+| 0   | 0   | Serial Mode 0 (shift register)|
+| 0   | 1   | Serial Mode 1 |
+| 1   | 0   | Serial Mode 2* (shift register UART)|
+| 1   | 1   | Serial Mode 3 (Multiprocessor)|
+
+
+* Doubling Baud Rate (PCON is not bit addressable)
 
 # References
 [10]: https://github.com/Hagar-Usama/Embedded-Recap#8051-assembly-language-programming
