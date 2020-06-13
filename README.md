@@ -9,7 +9,7 @@
 ## Contents
 * [x] [Assembly Language Programming][10]
 * [ ] I/O Programming
-* [ ] [Addressing Modes][30]
+* [x] [Addressing Modes][30]
 * [ ] Programming in C
 * [ ] Hardware Connection & Intel Hex file
 * [ ] [Timer Programming][20]
@@ -214,15 +214,15 @@ MOV   SP,     #08
 
 ## Addressing Modes
 
-[!addressing-modes][21]
+![addressing-modes][21]
 
 [21]: https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Addressing%20Modes/Addressing%20Modes_detailed.jpg
 
 
 #### SFR ( Special Function Registers) [80H - FFH]
 
-[!SFR1][22]
-[!SFR2][23]
+![SFR1][22]
+![SFR2][23]
 
 [22]:https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Addressing%20Modes/SFR1.png
 [23]:https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Addressing%20Modes/SFR2.png
