@@ -221,11 +221,12 @@ MOV   SP,     #08
 
 #### SFR ( Special Function Registers) [80H - FFH]
 
-![SFR1][22]
-![SFR2][23]
 
-[22]:https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Addressing%20Modes/SFR1.png
-[23]:https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Addressing%20Modes/SFR2.png
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Addressing%20Modes/SFR1.png width="400" height="400">
+
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Addressing%20Modes/SFR2.png width="400" height="400">
+
+
 
 
 * A --> 0E0H
@@ -252,19 +253,17 @@ MOVC    A,    @A + DPTR
 
 <!-- ![bit-address1][24] -->
 <img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Addressing%20Modes/bit-addressable.png width="400" height="400">
-![i-o bit addresses1][25]
-![i-o bit addresses2][26]
 
-[24]: https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Addressing%20Modes/bit-addressable.png
-[25]: https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Addressing%20Modes/i-o%20port%20addresses1.png
-[26]: https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Addressing%20Modes/i-o%20port%20addresses2.png
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Addressing%20Modes/i-o%20port%20addresses1.png width="400" height="400">
+
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Addressing%20Modes/i-o%20port%20addresses2.png width="400" height="400">
 
 #### single bit instructions
-[!single bit inst][27]
-[!bit directive][28]
 
-[27]: https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Addressing%20Modes/single-bit%20inst.png
-[28]: https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Addressing%20Modes/bit%20directive.png
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Addressing%20Modes/single-bit%20inst.png width="400" height="400">
+
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Addressing%20Modes/bit%20directive.png width="400" height="400">
+
 
 
 ## Timer Programming
