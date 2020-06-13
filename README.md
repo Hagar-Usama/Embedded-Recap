@@ -250,8 +250,8 @@ MOVC    A,    @A + DPTR
 * bit-addressable RAM location is 20-2FH
 * P0 -P3 are bit addressable
 
-![bit-address1][24]
-<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Addressing%20Modes/bit-addressable.png width="100">
+<!-- ![bit-address1][24] -->
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Addressing%20Modes/bit-addressable.png width=200 height=200">
 ![i-o bit addresses1][25]
 ![i-o bit addresses2][26]
 
