@@ -247,11 +247,12 @@ MOV  R5,     TH0
 
 * \* our focus
 
-![Mode_1][4]
-![Mode_2][5]
+![Mode_1][2]
+![Mode_2][3]
 
-[2]:https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Timer%20Programming/mode_1.png mode 1
-[3]:https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Timer%20Programming/mode_2.png mode2
+
+[2]:https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Timer%20Programming/mode_1.png
+[3]:https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Timer%20Programming/mode_2.png
 
 ### Notes
 
