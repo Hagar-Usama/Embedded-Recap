@@ -7,14 +7,17 @@
 
 ---
 ## Contents
+* [x] Assembly Language Programming
 * [ ] I/O Programming
-* [ ] Assembly Language Programming
 * [ ] Addressing Modes
 * [ ] Programming in C
 * [ ] Hardware Connection & Intel Hex file
 * [ ] Timer Programming
 * [ ] Serial Communication
 * [ ] External Memory
+
+
+>**What cannot be completely attained, should not be completely left**
 
 ----
 
@@ -29,6 +32,10 @@
 * Four I/O (8-bit)
 * 6 interrupts sources
 
+![8051_image][1]
+
+[1]:https://github.com/Hagar-Usama/Embedded-Recap/blob/master/mindmaps/8051_intro.jpg
+
 
 ### Registers:
 |D7|D6|D5|D4|D3|D2|D1|D0|
@@ -39,6 +46,8 @@
 * **B, R0:R7** [8-bit]
 * **DPTR (DPH, DPL)** [16-bit]
 * **PC** [16-bit]
+
+---
 
 ## 8051 Assembly Language Programming
 ### Some ISA
@@ -201,4 +210,55 @@ SP = 08
 ```assembly
 MOV   SP,     #08
 ```
+---
+
+## Timer Programming
+
+* 8051 has 2 timers (counters) [T0 , T1]
+|D15 - D8|D7-D0|
+|:--|:--|
+|THx|TLx
+
+```assembly
+MOV  TL0,    #4FH
+MOV  R5,     TH0
+```
+
+* TMOD (timer mode), is used to set the various timer operation modes
+|D7|D6|D5|D4|D3|D2|D1|D0|
+|:--|:--|:--|:--|:--|:--|:--|:--|
+|Gate|C/T'|M1|M0|Gate|C/T'|M1|M0|
+|MSB>>|Timer 1|||||Timer 0|<<LSB|
+
+* Gate
+  * when set, timer is enabled only while INTx pin is high & TRx control pin is set
+  * when cleared, the timer is enabled whenever the TRx control is set
+
+* C/T'
+  * cleared for timer (internal clock)
+  * set for counter (input for Tx input)
+
+| M1 | M2 | Mode | Operating Mode    |
+| :--| :--|:-----| :-----------------|
+| 0  | 0  | 0    | 13-bit timer      |
+| 0  | 1  | 1    | 16-bit timer*     |
+| 1  | 0  | 2    | 8-bit auto reload*|
+| 1  | 1  | 3    | Split timer mode  |
+
+* \* our focus
+
+![Mode_1][4]
+![Mode_2][5]
+
+[2]:https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Timer%20Programming/mode_1.png mode 1
+[3]:https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Timer%20Programming/mode_2.png mode2
+
+### Notes
+
+![ex_9.2][4]
+![ex_9.16][5]
+
+[4]:https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Timer%20Programming/9.2.png
+[5]:https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Timer%20Programming/9.16.png
+
 ---
