@@ -251,7 +251,7 @@ MOVC    A,    @A + DPTR
 * P0 -P3 are bit addressable
 
 <!-- ![bit-address1][24] -->
-<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Addressing%20Modes/bit-addressable.png width=200 height=200">
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Addressing%20Modes/bit-addressable.png width="200" height="200">
 ![i-o bit addresses1][25]
 ![i-o bit addresses2][26]
 
