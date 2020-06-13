@@ -49,7 +49,7 @@
 
 ---
 
-## 8051 Assembly Language Programming
+## [8051 Assembly Language Programming][10]
 ### Some ISA
 ```assembly
 mov dest, src
@@ -212,7 +212,7 @@ MOV   SP,     #08
 ```
 ---
 
-## Timer Programming
+## [Timer Programming][20]
 
 * 8051 has 2 timers (counters) [T0 , T1]
 |D15 - D8|D7-D0|
@@ -264,3 +264,7 @@ MOV  R5,     TH0
 [5]:https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Timer%20Programming/9.16.png
 
 ---
+
+# References
+[10]: https://github.com/Hagar-Usama/Embedded-Recap#8051-assembly-language-programming
+[20]: https://github.com/Hagar-Usama/Embedded-Recap#timer-programming
