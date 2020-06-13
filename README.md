@@ -212,7 +212,32 @@ MOV   SP,     #08
 ```
 ---
 
-## [Timer Programming][20]
+## Addressing Modes
+
+#### SFR ( Special Function Registers) [80H - FFH]
+* A --> 0E0H
+* B --> 0F0H
+
+```Assembly
+MOV   0E0H,  #50H
+```
+
+* Only direct addressing mode is allowed for push/poping the Stack
+
+* Pushing the Accumulator onto the state must be coded as
+```Assembly
+PUSH   0E0H
+```
+* Indexing addressing is used in accessing data elements of the look-up table entries located the program ROM
+```Assembly
+MOVC    A,    @A + DPTR
+```
+
+#### Bit Addresses
+* bit-addressable RAM location is 20-2FH
+* P0 -P3 are bit addressable
+
+## Timer Programming
 
 * 8051 has 2 timers (counters) [T0 , T1]
 |D15 - D8|D7-D0|
