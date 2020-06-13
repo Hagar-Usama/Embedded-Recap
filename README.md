@@ -1,7 +1,24 @@
 # Embedded Recap
 ---
+## Schedule
+* today: 13/6
+* Exam : 20/6
+* Deadline: 15/6
 
-## part 2
+---
+## Contents
+* [ ] I/O Programming
+* [ ] Assembly Language Programming
+* [ ] Addressing Modes
+* [ ] Programming in C
+* [ ] Hardware Connection & Intel Hex file
+* [ ] Timer Programming
+* [ ] Serial Communication
+* [ ] External Memory
+
+----
+
+## Basic Introduction
 
 8051 chip:
 * 8-bit wide
@@ -23,7 +40,7 @@
 * **DPTR (DPH, DPL)** [16-bit]
 * **PC** [16-bit]
 
-
+## 8051 Assembly Language Programming
 ### Some ISA
 ```assembly
 mov dest, src
@@ -184,3 +201,4 @@ SP = 08
 ```assembly
 MOV   SP,     #08
 ```
+---
