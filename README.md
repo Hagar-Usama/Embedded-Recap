@@ -262,7 +262,7 @@ MOVC    A,    @A + DPTR
 
 <img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Addressing%20Modes/single-bit%20inst.png width="400" height="400">
 
-<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Addressing%20Modes/bit%20directive.png width="400" height="400">
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Addressing%20Modes/i-o%20port%20address%202.png width="400" height="400">
 
 
 
@@ -318,6 +318,19 @@ MOV  R5,     TH0
 [5]:https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Timer%20Programming/9.16.png
 
 ---
+
+## Serial Communication
+
+* bps = baud rate (the rate of data transfer)
+* Standard interfacing RS232
+* MAX232 (convert RS232 to TTL levels) [charge bump]
+* MAX233 (same as MAX232 with built-in capacitors)
+
+* Software:
+  * Hyperterminal
+  * Serialterminal
+
+  
 
 # References
 [10]: https://github.com/Hagar-Usama/Embedded-Recap#8051-assembly-language-programming
