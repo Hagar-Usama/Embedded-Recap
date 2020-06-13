@@ -13,7 +13,7 @@
 * [ ] Programming in C
 * [ ] Hardware Connection & Intel Hex file
 * [ ] [Timer Programming][20]
-* [ ] Serial Communication
+* [x] [Serial Communication][40]
 * [ ] External Memory
 
 
@@ -321,7 +321,7 @@ MOV  R5,     TH0
 
 ## Serial Communication
 
-<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Serial%20Communication/Serial%20Communication.jpg width="400" height="400">
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Serial%20Communication/Serial%20Communication.jpg>
 
 
 * bps = baud rate (the rate of data transfer)
@@ -339,7 +339,7 @@ MOV  R5,     TH0
 <img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Serial%20Communication/RS232%20DB-9%202.png width="400" height="400">
 
 ### Registers in Use
-<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Serial%20Communication/Registers%20in%20Serial%20Comm.jpg width="400" height="400">
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Serial%20Communication/Registers%20in%20Serial%20Comm.jpg >
 
 ```Assembly
 MOV   SBUF,  #'D'
@@ -366,3 +366,4 @@ MOV   A,     SBUF
 [10]: https://github.com/Hagar-Usama/Embedded-Recap#8051-assembly-language-programming
 [20]: https://github.com/Hagar-Usama/Embedded-Recap#timer-programming
 [30]: https://github.com/Hagar-Usama/Embedded-Recap#addressing-modes
+[40]: https://github.com/Hagar-Usama/Embedded-Recap#serial-communication
