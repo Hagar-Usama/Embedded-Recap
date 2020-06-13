@@ -12,8 +12,9 @@
 * [x] [Addressing Modes][30]
 * [ ] Programming in C
 * [ ] Hardware Connection & Intel Hex file
-* [ ] [Timer Programming][20]
+* [x] [Timer Programming][20]
 * [x] [Serial Communication][40]
+* [ ] Interrupts Programming
 * [ ] External Memory
 
 
@@ -361,6 +362,29 @@ MOV   A,     SBUF
 
 
 * Doubling Baud Rate (PCON is not bit addressable)
+
+
+## Interrupts Programming
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Interrupts%20Programming/Interrupts%20(5%20%2B%201).jpg>
+
+* Compare codes with timer programming
+> **Recall:** duty cycle = % high portion / overall period <br>
+Avg voltage = operated voltage(5V) * duty cycle
+
+### IE Register
+
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Interrupts%20Programming/IE%20register.png width="400" height="400">
+
+* **TI (transfer Interrupt)**: is raised when the last bit of the frammed data are transfered, indicating that the SBUF register is ready to transfer the next byte
+
+* **RI (Received Interrupt)**: is the raised when the entire frame of the data,including stop bit is received
+
+* In 8051, there is only one interrupt for serial communication
+  * TI and RI are ORed
+  * When the output is set -> jump tp 0023H ISR
+  * Check TI and RI to see which caused the interrupt to respond accordingly
+
+
 
 # References
 [10]: https://github.com/Hagar-Usama/Embedded-Recap#8051-assembly-language-programming
