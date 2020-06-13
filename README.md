@@ -262,7 +262,7 @@ MOVC    A,    @A + DPTR
 
 <img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Addressing%20Modes/single-bit%20inst.png width="400" height="400">
 
-<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Addressing%20Modes/i-o%20port%20address%202.png width="400" height="400">
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Addressing%20Modes/i-o%20port%20addresses2.png width="400" height="400">
 
 
 
@@ -330,7 +330,7 @@ MOV  R5,     TH0
   * Hyperterminal
   * Serialterminal
 
-  
+
 
 # References
 [10]: https://github.com/Hagar-Usama/Embedded-Recap#8051-assembly-language-programming
