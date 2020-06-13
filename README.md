@@ -14,7 +14,7 @@
 * [ ] Hardware Connection & Intel Hex file
 * [x] [Timer Programming][20]
 * [x] [Serial Communication][40]
-* [ ] Interrupts Programming
+* [ ] [Interrupts Programming][50]
 * [ ] External Memory
 
 
@@ -365,7 +365,7 @@ MOV   A,     SBUF
 
 
 ## Interrupts Programming
-<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Interrupts%20Programming/Interrupts%20(5%20%2B%201).jpg>
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Interrupts%20Programming/Interrupt%20(5%20%2B%201).jpg>
 
 * Compare codes with timer programming
 > **Recall:** duty cycle = % high portion / overall period <br>
@@ -384,10 +384,26 @@ Avg voltage = operated voltage(5V) * duty cycle
   * When the output is set -> jump tp 0023H ISR
   * Check TI and RI to see which caused the interrupt to respond accordingly
 
+### TCON Register
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Interrupts%20Programming/TCON_1.png width="400" height="400">
 
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Interrupts%20Programming/TCON_2.png width="400" height="400">
+
+
+### Interrupt Vector Table
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Interrupts%20Programming/intr_vect_table.png width="400" height="400">
+
+### Interrupt Flag bits
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Interrupts%20Programming/interrupt_flag_bits.png width="400" height="400">
+
+### Interrupt Priority
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Interrupts%20Programming/interrupt_priority_1.png width="400" height="400">
+
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Interrupts%20Programming/interrupt_priority_2.png width="400" height="400">
 
 # References
 [10]: https://github.com/Hagar-Usama/Embedded-Recap#8051-assembly-language-programming
 [20]: https://github.com/Hagar-Usama/Embedded-Recap#timer-programming
 [30]: https://github.com/Hagar-Usama/Embedded-Recap#addressing-modes
 [40]: https://github.com/Hagar-Usama/Embedded-Recap#serial-communication
+[50]: https://github.com/Hagar-Usama/Embedded-Recap#interrupts-programming
