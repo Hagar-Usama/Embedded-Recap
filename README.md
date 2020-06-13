@@ -7,12 +7,12 @@
 
 ---
 ## Contents
-* [x] Assembly Language Programming
+* [x] [Assembly Language Programming][10]
 * [ ] I/O Programming
 * [ ] Addressing Modes
 * [ ] Programming in C
 * [ ] Hardware Connection & Intel Hex file
-* [ ] Timer Programming
+* [ ] [Timer Programming][20]
 * [ ] Serial Communication
 * [ ] External Memory
 
