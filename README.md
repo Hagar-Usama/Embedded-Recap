@@ -11,7 +11,7 @@
 * [x] [I/O Programming][70]
 * [x] [Addressing Modes][30]
 * [ ] Programming in C
-* [ ] Hardware Connection & Intel Hex file
+* [x] Hardware Connection & Intel Hex file
 * [x] [Timer Programming][20]
 * [x] [Serial Communication][40]
 * [x] [Interrupts Programming][50]
@@ -479,6 +479,17 @@ check correctness of data
 <img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/I-O%20Programming/read-modify-write1.png width="400" height="400">
 <img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/I-O%20Programming/read-modify-write2.png width="400" height="400">
 
+---
+
+## Hardware Connection & Intel Hex file
+
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Intel%20HEX%20file/intel_hex_file_1.png width="400" height="400">
+
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Intel%20HEX%20file/intel_hex_file_2.png width="400" height="400">
+
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Intel%20HEX%20file/intel_hex_file_3.png width="400" height="400">
+
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Intel%20HEX%20file/intel_hex_file_4.png width="400" height="400">
 
 
 
