@@ -450,6 +450,16 @@ check correctness of data
    <img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/External%20Memory/conn_4.png
     width="400" height="400">
 
+---
+
+## I/O Programming
+
+* 0 : 0utput
+* 1:  1nput
+
+* P0 must be connected with 10 kohm pull-up resistor
+* P0 is also used for address and data AD0-AD7
+
 
 
 
