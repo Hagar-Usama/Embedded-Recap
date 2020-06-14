@@ -402,6 +402,32 @@ Avg voltage = operated voltage(5V) * duty cycle
 
 <img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Interrupts%20Programming/interrupt_priority_2.png width="400" height="400">
 
+---
+
+## External Memory
+
+* The pattern of IC  [ **27** _128_ - 25 ]
+  * 27 -> uv-EPROM
+  * 128 -> capacity (Kbits)
+  * 25 -> access time (n/10)
+* 8751 -> EPROM based
+* 89c51 -> Flash based
+### Checksum
+check correctness of data
+* sum(bytes) + 2's complement(data) must = 0 if no errors
+
+* MOVX : transfers data between the accumulator and external data memory
+
+* For program ROM
+  * PSEN is used to activate both OE and CE
+* For Data ROM
+  * we use RD to activate OE
+  * CE is activated by simple decoder
+
+
+
+---
+
 # References
 [10]: https://github.com/Hagar-Usama/Embedded-Recap#8051-assembly-language-programming
 [20]: https://github.com/Hagar-Usama/Embedded-Recap#timer-programming
