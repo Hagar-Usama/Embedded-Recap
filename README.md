@@ -11,7 +11,7 @@
 * [x] [I/O Programming][70]
 * [x] [Addressing Modes][30]
 * [ ] Programming in C
-* [x] Hardware Connection & Intel Hex file
+* [x] [Hardware Connection & Intel Hex file][80]
 * [x] [Timer Programming][20]
 * [x] [Serial Communication][40]
 * [x] [Interrupts Programming][50]
@@ -505,5 +505,6 @@ check correctness of data
 [30]: https://github.com/Hagar-Usama/Embedded-Recap#addressing-modes
 [40]: https://github.com/Hagar-Usama/Embedded-Recap#serial-communication
 [50]: https://github.com/Hagar-Usama/Embedded-Recap#interrupts-programming
-[60]:https://github.com/Hagar-Usama/Embedded-Recap#external-memory
+[60]: https://github.com/Hagar-Usama/Embedded-Recap#external-memory
 [70]: https://github.com/Hagar-Usama/Embedded-Recap#io-programming
+[80]: https://github.com/Hagar-Usama/Embedded-Recap#hardware-connection--intel-hex-file
