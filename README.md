@@ -15,7 +15,7 @@
 * [x] [Timer Programming][20]
 * [x] [Serial Communication][40]
 * [x] [Interrupts Programming][50]
-* [ ] [External Memory][60]
+* [x] [External Memory][60]
 
 
 > ### What cannot be completely attained, should not be completely left
@@ -50,7 +50,7 @@
 
 ---
 
-## [8051 Assembly Language Programming][10]
+## 8051 Assembly Language Programming
 ### Some ISA
 ```assembly
 mov dest, src
@@ -409,7 +409,7 @@ Avg voltage = operated voltage(5V) * duty cycle
 <img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/External%20Memory/Memory.jpg>
 
 <img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/External%20Memory/mem_org.png
- width="400" height="400">
+ width="400" height="200">
 
 
 * The pattern of IC  [ **27** _128_ - 25 ]
