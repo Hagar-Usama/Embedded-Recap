@@ -15,7 +15,7 @@
 * [x] [Timer Programming][20]
 * [x] [Serial Communication][40]
 * [x] [Interrupts Programming][50]
-* [ ] External Memory
+* [ ] [External Memory][60]
 
 
 > ### What cannot be completely attained, should not be completely left
@@ -406,6 +406,12 @@ Avg voltage = operated voltage(5V) * duty cycle
 
 ## External Memory
 
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/External%20Memory/Memory.jpg>
+
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/External%20Memory/mem_org.png
+ width="400" height="400">
+
+
 * The pattern of IC  [ **27** _128_ - 25 ]
   * 27 -> uv-EPROM
   * 128 -> capacity (Kbits)
@@ -424,6 +430,34 @@ check correctness of data
   * we use RD to activate OE
   * CE is activated by simple decoder
 
+### Decoding
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/External%20Memory/Decoding.jpg>
+
+#### EA
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/External%20Memory/EA%20pin.jpg>
+
+### Connection
+
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/External%20Memory/conn_1.png
+ width="400" height="400">
+
+ <img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/External%20Memory/conn_2.png
+  width="400" height="400">
+
+  <img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/External%20Memory/conn_3_detailed.png
+   width="400" height="400">
+
+   <img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/External%20Memory/conn_4.png
+    width="400" height="400">
+
+
+
+
+
+
+
+
+
 
 
 ---
@@ -434,3 +468,4 @@ check correctness of data
 [30]: https://github.com/Hagar-Usama/Embedded-Recap#addressing-modes
 [40]: https://github.com/Hagar-Usama/Embedded-Recap#serial-communication
 [50]: https://github.com/Hagar-Usama/Embedded-Recap#interrupts-programming
+[60]:https://github.com/Hagar-Usama/Embedded-Recap#external-memory
