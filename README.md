@@ -14,11 +14,11 @@
 * [ ] Hardware Connection & Intel Hex file
 * [x] [Timer Programming][20]
 * [x] [Serial Communication][40]
-* [ ] [Interrupts Programming][50]
+* [x] [Interrupts Programming][50]
 * [ ] External Memory
 
 
->**What cannot be completely attained, should not be completely left**
+> ### What cannot be completely attained, should not be completely left
 
 ----
 
@@ -383,6 +383,7 @@ Avg voltage = operated voltage(5V) * duty cycle
   * TI and RI are ORed
   * When the output is set -> jump tp 0023H ISR
   * Check TI and RI to see which caused the interrupt to respond accordingly
+  * The serial interrupt is used mainly for receiving data
 
 ### TCON Register
 <img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Interrupts%20Programming/TCON_1.png width="400" height="400">
