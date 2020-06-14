@@ -472,7 +472,7 @@ check correctness of data
   width="400" height="400">
 
 ### Some ISA
-<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/I-O%20Programming/inst_for_read_input.png  width="400" height="400">
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/I-O%20Programming/inst_for_read_input.png  width="400" height="200">
 
 
 ### Read-Modify-write
