@@ -8,7 +8,7 @@
 ---
 ## Contents
 * [x] [Assembly Language Programming][10]
-* [ ] I/O Programming
+* [x] [I/O Programming][70]
 * [x] [Addressing Modes][30]
 * [ ] Programming in C
 * [ ] Hardware Connection & Intel Hex file
@@ -454,14 +454,30 @@ check correctness of data
 
 ## I/O Programming
 
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/I-O%20Programming/8051_chip.png  width="400" height="400">
+
 * 0 : 0utput
 * 1:  1nput
 
 * P0 must be connected with 10 kohm pull-up resistor
 * P0 is also used for address and data AD0-AD7
 
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/I-O%20Programming/I-o%20programming_p0.png  width="400" height="400">
 
 
+
+### port 3
+
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/I-O%20Programming/port3.png
+  width="400" height="400">
+
+### Some ISA
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/I-O%20Programming/inst_for_read_input.png  width="400" height="400">
+
+
+### Read-Modify-write
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/I-O%20Programming/read-modify-write1.png width="400" height="400">
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/I-O%20Programming/read-modify-write2.png width="400" height="400">
 
 
 
@@ -479,3 +495,4 @@ check correctness of data
 [40]: https://github.com/Hagar-Usama/Embedded-Recap#serial-communication
 [50]: https://github.com/Hagar-Usama/Embedded-Recap#interrupts-programming
 [60]:https://github.com/Hagar-Usama/Embedded-Recap#external-memory
+[70]: https://github.com/Hagar-Usama/Embedded-Recap#io-programming
