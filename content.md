@@ -8,7 +8,7 @@
 * [x] [Assembly Language Programming][10]
 * [x] [I/O Programming][70]
 * [x] [Addressing Modes][30]
-* [ ] Programming in C
+* [x] Programming in C
 * [x] [Hardware Connection & Intel Hex file][80]
 * [x] [Timer Programming][20]
 * [x] [Serial Communication][40]
