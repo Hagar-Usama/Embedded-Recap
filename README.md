@@ -5,15 +5,15 @@
 
 ---
 ## Contents
-* [x] [Assembly Language Programming][10]
-* [x] [I/O Programming][70]
-* [x] [Addressing Modes][30]
+* [x] Assembly Language Programming
+* [x] I/O Programming
+* [x] Addressing Modes
 * [ ] Programming in C
-* [x] [Hardware Connection & Intel Hex file][80]
-* [x] [Timer Programming][20]
-* [x] [Serial Communication][40]
-* [x] [Interrupts Programming][50]
-* [x] [External Memory][60]
+* [x] Hardware Connection & Intel Hex file
+* [x] Timer Programming
+* [x] Serial Communication
+* [x] Interrupts Programming
+* [x] External Memory
 
 
 > ### What cannot be completely attained, should not be completely left
