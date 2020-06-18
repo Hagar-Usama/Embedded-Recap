@@ -1,9 +1,7 @@
 # Embedded Recap
 ---
 ## Schedule
-* today: 13/6
 * Exam : 20/6
-* Deadline: 15/6
 
 ---
 ## Contents
@@ -35,7 +33,7 @@
 
 ![8051_image][1]
 
-[1]:https://github.com/Hagar-Usama/Embedded-Recap/blob/master/mindmaps/8051_intro.jpg
+[1]:https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Intro/8051_intro.jpg
 
 
 ### Registers:
@@ -217,15 +215,15 @@ MOV   SP,     #08
 
 ![addressing-modes][21]
 
-[21]: https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Addressing%20Modes/Addressing%20Modes_detailed.jpg
+[21]: https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Addressing%20Modes/images/Addressing%20Modes_detailed.jpg
 
 
 #### SFR ( Special Function Registers) [80H - FFH]
 
 
-<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Addressing%20Modes/SFR1.png width="400" height="400">
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Addressing%20Modes/images/SFR1.png width="400" height="400">
 
-<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Addressing%20Modes/SFR2.png width="400" height="400">
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Addressing%20Modes/images/SFR2.png width="400" height="400">
 
 
 
@@ -253,17 +251,17 @@ MOVC    A,    @A + DPTR
 * P0 -P3 are bit addressable
 
 <!-- ![bit-address1][24] -->
-<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Addressing%20Modes/bit-addressable.png width="400" height="400">
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Addressing%20Modes/images/bit-addressable.png width="400" height="400">
 
-<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Addressing%20Modes/i-o%20port%20addresses1.png width="400" height="400">
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Addressing%20Modes/images/i-o%20port%20addresses1.png width="400" height="400">
 
-<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Addressing%20Modes/i-o%20port%20addresses2.png width="400" height="400">
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Addressing%20Modes/images/i-o%20port%20addresses2.png width="400" height="400">
 
 #### single bit instructions
 
-<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Addressing%20Modes/single-bit%20inst.png width="400" height="400">
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Addressing%20Modes/images/single-bit%20inst.png width="400" height="400">
 
-<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Addressing%20Modes/i-o%20port%20addresses2.png width="400" height="400">
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Addressing%20Modes/images/i-o%20port%20addresses2.png width="400" height="400">
 
 
 
@@ -307,22 +305,22 @@ MOV  R5,     TH0
 ![Mode_2][3]
 
 
-[2]:https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Timer%20Programming/mode_1.png
-[3]:https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Timer%20Programming/mode_2.png
+[2]:https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Timer%20Programming/images/mode_1.png
+[3]:https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Timer%20Programming/images/mode_2.png
 
 ### Notes
 
 ![ex_9.2][4]
 ![ex_9.16][5]
 
-[4]:https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Timer%20Programming/9.2.png
-[5]:https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Timer%20Programming/9.16.png
+[4]:https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Timer%20Programming/images/9.2.png
+[5]:https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Timer%20Programming/images/9.16.png
 
 ---
 
 ## Serial Communication
 
-<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Serial%20Communication/Serial%20Communication.jpg>
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Serial%20Communication/images/Serial%20Communication.jpg>
 
 
 * bps = baud rate (the rate of data transfer)
@@ -335,12 +333,12 @@ MOV  R5,     TH0
   * Serialterminal
 
 ### RS232
-<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Serial%20Communication/RS232%20DB-25%201.png width="400" height="400">
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Serial%20Communication/images/RS232%20DB-25%201.png width="400" height="400">
 
-<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Serial%20Communication/RS232%20DB-9%202.png width="400" height="400">
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Serial%20Communication/images/RS232%20DB-9%202.png width="400" height="400">
 
 ### Registers in Use
-<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Serial%20Communication/Registers%20in%20Serial%20Comm.jpg >
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Serial%20Communication/images/Registers%20in%20Serial%20Comm.jpg >
 
 ```Assembly
 MOV   SBUF,  #'D'
@@ -350,7 +348,7 @@ MOV   A,     SBUF
 
 #### SCON
 
-<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Serial%20Communication/SCON_bits.png width="400" height="400">
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Serial%20Communication/images/SCON_bits.png width="400" height="400">
 
 ##### Modes
 | SM0 | SM1 |     |
@@ -365,7 +363,7 @@ MOV   A,     SBUF
 
 
 ## Interrupts Programming
-<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Interrupts%20Programming/Interrupt%20(5%20%2B%201).jpg>
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Interrupts%20Programming/images/Interrupt%20(5%20%2B%201).jpg>
 
 * Compare codes with timer programming
 > **Recall:** duty cycle = % high portion / overall period <br>
@@ -373,7 +371,7 @@ Avg voltage = operated voltage(5V) * duty cycle
 
 ### IE Register
 
-<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Interrupts%20Programming/IE%20register.png width="400" height="400">
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Interrupts%20Programming/images/IE%20register.png width="400" height="400">
 
 * **TI (transfer Interrupt)**: is raised when the last bit of the frammed data are transfered, indicating that the SBUF register is ready to transfer the next byte
 
@@ -386,29 +384,29 @@ Avg voltage = operated voltage(5V) * duty cycle
   * The serial interrupt is used mainly for receiving data
 
 ### TCON Register
-<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Interrupts%20Programming/TCON_1.png width="400" height="400">
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Interrupts%20Programming/images/TCON_1.png width="400" height="400">
 
-<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Interrupts%20Programming/TCON_2.png width="400" height="400">
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Interrupts%20Programming/images/TCON_2.png width="400" height="400">
 
 
 ### Interrupt Vector Table
-<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Interrupts%20Programming/intr_vect_table.png width="400" height="400">
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Interrupts%20Programming/images/intr_vect_table.png width="400" height="400">
 
 ### Interrupt Flag bits
-<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Interrupts%20Programming/interrupt_flag_bits.png width="400" height="400">
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Interrupts%20Programming/images/interrupt_flag_bits.png width="400" height="400">
 
 ### Interrupt Priority
-<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Interrupts%20Programming/interrupt_priority_1.png width="400" height="400">
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Interrupts%20Programming/images/interrupt_priority_1.png width="400" height="400">
 
-<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Interrupts%20Programming/interrupt_priority_2.png width="400" height="400">
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Interrupts%20Programming/images/interrupt_priority_2.png width="400" height="400">
 
 ---
 
 ## External Memory
 
-<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/External%20Memory/Memory.jpg>
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/External%20Memory/images/Memory.jpg>
 
-<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/External%20Memory/mem_org.png
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/External%20Memory/images/mem_org.png
  width="400" height="200">
 
 
@@ -434,27 +432,27 @@ check correctness of data
 <img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/External%20Memory/Decoding.jpg>
 
 #### EA
-<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/External%20Memory/EA%20pin.jpg>
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/External%20Memory/images/EA%20pin.jpg>
 
 ### Connection
 
-<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/External%20Memory/conn_1.png
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/External%20Memory/images/conn_1.png
  width="400" height="400">
 
- <img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/External%20Memory/conn_2.png
+ <img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/External%20Memory/images/conn_2.png
   width="400" height="400">
 
-  <img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/External%20Memory/conn_3_detailed.png
+  <img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/External%20Memory/images/conn_3_detailed.png
    width="400" height="400">
 
-   <img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/External%20Memory/conn_4.png
+   <img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/External%20Memory/images/conn_4.png
     width="400" height="400">
 
 ---
 
 ## I/O Programming
 
-<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/I-O%20Programming/8051_chip.png  width="400" height="400">
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/I-O%20Programming/images/8051_chip.png  width="400" height="400">
 
 * 0 : 0utput
 * 1:  1nput
@@ -462,34 +460,34 @@ check correctness of data
 * P0 must be connected with 10 kohm pull-up resistor
 * P0 is also used for address and data AD0-AD7
 
-<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/I-O%20Programming/I-o%20programming_p0.png  width="400" height="400">
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/I-O%20Programming/images/I-o%20programming_p0.png  width="400" height="400">
 
 
 
 ### port 3
 
-<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/I-O%20Programming/port3.png
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/I-O%20Programming/images/port3.png
   width="400" height="400">
 
 ### Some ISA
-<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/I-O%20Programming/inst_for_read_input.png  width="400" height="200">
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/I-O%20Programming/images/inst_for_read_input.png  width="400" height="200">
 
 
 ### Read-Modify-write
-<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/I-O%20Programming/read-modify-write1.png width="400" height="400">
-<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/I-O%20Programming/read-modify-write2.png width="400" height="400">
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/I-O%20Programming/images/read-modify-write1.png width="400" height="400">
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/I-O%20Programming/images/read-modify-write2.png width="400" height="400">
 
 ---
 
 ## Hardware Connection & Intel Hex file
 
-<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Intel%20HEX%20file/intel_hex_file_1.png width="400" height="400">
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Intel%20HEX%20file/images/intel_hex_file_1.png width="400" height="400">
 
-<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Intel%20HEX%20file/intel_hex_file_2.png width="400" height="400">
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Intel%20HEX%20file/images/intel_hex_file_2.png width="400" height="400">
 
-<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Intel%20HEX%20file/intel_hex_file_3.png width="400" height="400">
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Intel%20HEX%20file/images/intel_hex_file_3.png width="400" height="400">
 
-<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Intel%20HEX%20file/intel_hex_file_4.png width="400" height="400">
+<img src=https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Intel%20HEX%20file/images/intel_hex_file_4.png width="400" height="400">
 
 
 
