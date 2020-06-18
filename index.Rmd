@@ -10,7 +10,7 @@ output: html_document
 #### Contents
 * <a href="Intro/Intro.html">Introduction</a>
 * <a href="Assembly/Assembly.html">Assembly Language Programming</a>
-* C in 8051
+* <a href="C in 8051/C_in_8051.html">C in 8051</a>
 * <a href="I-O Programming/I-O-programming.html">I/O Programming</a>
 * <a href="Addressing Modes/Addressing_Modes.html">Addressing Modes</a>
 * <a href="Intel HEX file/Intel_hex_file.html">Hardware Connection & Intel Hex file</a>

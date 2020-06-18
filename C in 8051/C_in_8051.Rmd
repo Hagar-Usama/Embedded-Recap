@@ -1,0 +1,30 @@
+---
+title: "Embedded"
+author: "Hagar Usama"
+date: "6/18/2020"
+output: html_document
+---
+
+### C in 8051 {.tabset}
+
+#### Intro
+
+<img src="images/Why C.png">
+
+#### Notes
+
+* sbit : allows access to signle bits of the SFR register
+* loops: can be used as delay (or see timers)
+
+##### Data Types
+<img src="images/sfr_data_types.png" width="400" height="200">
+
+
+#### Exercises
+<img src="images/ex_19.png" width="400" height="400">
+
+#### Go Back
+
+<a href="../index.html">Index</a>
+
+##
