@@ -33,7 +33,7 @@
 
 ![8051_image][1]
 
-[1]:https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Intro/8051_intro.jpg
+[1]:https://github.com/Hagar-Usama/Embedded-Recap/blob/master/Intro/images/8051_intro.jpg
 
 
 ### Registers:
