@@ -21,6 +21,7 @@
 ----
 ## How to run
 1. [Online][1] , Thanks to [Abogical][1]
+
 1. offline:
   1. clone/download the repository
   1. open the index file (index.html)
