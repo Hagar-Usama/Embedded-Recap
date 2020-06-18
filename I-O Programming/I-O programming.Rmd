@@ -1,0 +1,42 @@
+---
+title: "Embedded"
+author: "Hagar Usama"
+date: "6/18/2020"
+output: html_document
+---
+
+
+## I/O Programming {.tabset}
+
+### Intro
+<img src="images/8051_chip.png"  width="400" height="400">
+
+* 0 : 0utput
+* 1:  1nput
+
+* P0 must be connected with 10 kohm pull-up resistor
+* P0 is also used for address and data AD0-AD7
+
+<img src="images/I-o%20programming_p0.png"  width="400" height="400">
+
+
+
+### port 3
+
+<img src="images/port3.png" width="400" height="400">
+
+### Some ISA
+<img src="images/inst_for_read_input.png"  width="400" height="200">
+
+
+### Read-Modify-write
+<img src="images/read-modify-write1.png" width="400" height="400">
+<img src="images/read-modify-write2.png" width="400" height="400">
+
+---
+### Exercises
+### Go Back
+
+<a href="../index.html">Index</a>
+
+##

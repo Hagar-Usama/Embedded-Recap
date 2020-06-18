@@ -1,0 +1,57 @@
+---
+title: "Embedded"
+author: "Hagar Usama"
+date: "6/18/2020"
+output: html_document
+---
+
+## Serial Communication {.tabset}
+
+### Intro
+<img src="images/Serial Communication.jpg">
+
+### Notes
+* bps = baud rate (the rate of data transfer)
+* Standard interfacing RS232
+* MAX232 (convert RS232 to TTL levels) [charge bump]
+* MAX233 (same as MAX232 with built-in capacitors)
+
+* Software:
+  * Hyperterminal
+  * Serialterminal
+
+### RS232
+<img src="images/RS232 DB-25 1.png" width="400" height="400">
+
+<img src="images/RS232 DB-9 2.png" width="400" height="400">
+
+### Registers in Use
+<img src="images/Registers in Serial Comm.jpg" >
+
+```Assembly
+MOV   SBUF,  #'D'
+MOV   SBUF,  A
+MOV   A,     SBUF
+```
+
+#### SCON
+
+<img src="images/SCON_bits.png" width="400" height="400">
+
+##### Modes
+| SM0 | SM1 |     |
+| :---| :---| :---|
+| 0   | 0   | Serial Mode 0 (shift register)|
+| 0   | 1   | Serial Mode 1 |
+| 1   | 0   | Serial Mode 2* (shift register UART)|
+| 1   | 1   | Serial Mode 3 (Multiprocessor)|
+
+
+* Doubling Baud Rate (PCON is not bit addressable)
+
+### Exercises
+### Go Back
+
+<a href="../index.html">Index</a>
+
+##

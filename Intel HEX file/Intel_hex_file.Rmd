@@ -1,0 +1,27 @@
+---
+title: "Embedded"
+author: "Hagar Usama"
+date: "6/18/2020"
+output: html_document
+---
+
+## Hardware Connection & Intel Hex file {.tabset}
+
+### Notes
+
+<img src="images/intel_hex_file_1.png" width="400" height="400">
+
+<img src="images/intel_hex_file_2.png" width="400" height="400">
+
+<img src="images/intel_hex_file_3.png" width="400" height="400">
+
+<img src="images/intel_hex_file_4.png" width="400" height="400">
+
+### Exercises
+### Go Back
+
+<a href="../index.html">Index</a>
+
+##
+
+

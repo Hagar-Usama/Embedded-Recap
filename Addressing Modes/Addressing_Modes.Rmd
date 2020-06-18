@@ -1,0 +1,66 @@
+---
+title: "Embedded Systems"
+author: "Hagar Usama"
+date: "6/18/2020"
+output: html_document
+---
+
+### Addressing Modes {.tabset}
+
+#### Intro
+
+<img src="images/Addressing Modes_detailed.jpg">
+
+#### SFR
+ 
+( Special Function Registers) [80H - FFH]
+
+
+<img src="images/SFR1.png" width="400" height="400">
+
+<img src="images/SFR2.png" width="400" height="400">
+
+
+* A --> 0E0H
+* B --> 0F0H
+
+```Assembly
+MOV   0E0H,  #50H
+```
+
+
+#### Bit Addresses
+* bit-addressable RAM location is 20-2FH
+* P0 -P3 are bit addressable
+
+<!-- ![bit-address1][24] -->
+
+<img src="images/bit-addressable.png" width="400" height="400">
+<img src="images/i-o port addresses1.png" width="400" height="400">
+<img src="images/i-o port addresses2.png" width="400" height="400">
+
+##### single bit instructions
+
+<img src="images/single-bit inst.png" width="400" height="400">
+
+<img src="i-o port addresses2.png" width="400" height="400">
+
+#### Notes
+
+* Only direct addressing mode is allowed for push/poping the Stack
+
+* Pushing the Accumulator onto the state must be coded as
+```Assembly
+PUSH   0E0H
+```
+* Indexing addressing is used in accessing data elements of the look-up table entries located the program ROM
+```Assembly
+MOVC    A,    @A + DPTR
+```
+
+#### Exercises
+#### Go Back
+
+<a href="../index.html">Index</a>
+
+##

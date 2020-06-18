@@ -1,0 +1,22 @@
+---
+title: "Embedded"
+author: "Hagar Usama"
+date: "6/18/2020"
+output: html_document
+---
+
+### Index {.tabset}
+
+#### Contents
+* <a href="Intro/Intro.html">Introduction</a>
+* <a href="Assembly/Assembly.html">Assembly Language Programming</a>
+* C in 8051
+* <a href="I-O Programming/I-O-programming.html">I/O Programming</a>
+* <a href="Addressing Modes/Addressing_Modes.html">Addressing Modes</a>
+* <a href="Intel HEX file/Intel_hex_file.html">Hardware Connection & Intel Hex file</a>
+* <a href="Timer Programming/Timer-Programming.html">Timer Programming</a>
+* <a href="Serial Communication/Serial-Communication.html">Serial Communication</a>
+* <a href="Interrupts Programming/interrupts_programming.html">Interrupts Programming</a>
+* <a href="External Memory/External_Memory.html"> External Memory</a>
+
+

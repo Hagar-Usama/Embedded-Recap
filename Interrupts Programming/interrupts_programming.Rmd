@@ -1,0 +1,53 @@
+---
+title: "Embedded"
+author: "Hagar Usama"
+date: "6/18/2020"
+output: html_document
+---
+
+## Interrupts Programming {.tabset}
+
+### Intro
+<img src="images/Interrupt (5 + 1).jpg">
+
+### Notes
+* Compare codes with timer programming
+> **Recall:** duty cycle = % high portion / overall period <br>
+Avg voltage = operated voltage(5V) * duty cycle
+
+### IE Register
+
+<img src="images/IE register.png" width="400" height="400">
+
+* **TI (transfer Interrupt)**: is raised when the last bit of the frammed data are transfered, indicating that the SBUF register is ready to transfer the next byte
+
+* **RI (Received Interrupt)**: is the raised when the entire frame of the data,including stop bit is received
+
+* In 8051, there is only one interrupt for serial communication
+  * TI and RI are ORed
+  * When the output is set -> jump tp 0023H ISR
+  * Check TI and RI to see which caused the interrupt to respond accordingly
+  * The serial interrupt is used mainly for receiving data
+
+### TCON Register
+<img src="images/TCON_1.png" width="400" height="400">
+<img src="images/TCON_2.png" width="400" height="400">
+
+
+### Interrupt Vector Table
+<img src="images/intr_vect_table.png" width="400" height="400">
+
+### Interrupt Flag bits
+<img src="images/interrupt_flag_bits.png" width="400" height="400">
+
+### Interrupt Priority
+<img src="images/interrupt_priority_1.png" width="400" height="400">
+
+<img src="images/interrupt_priority_2.png" width="400" height="400">
+
+### Exercises
+### Go Back
+
+<a href="../index.html">Index</a>
+
+##
