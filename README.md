@@ -20,11 +20,11 @@
 
 ----
 ## How to run
-1. [online][https://hagar-usama.github.io/Embedded-Recap/] , Thanks to [Abogical][1]
+1. [Online][1] , Thanks to [Abogical][1]
 1. offline:
   1. clone/download the repository
   1. open the index file (index.html)
   1. [optional] if you wish, check contents.md
 
-
-[1]: https://github.com/Abogical
+[1]:https://hagar-usama.github.io/Embedded-Recap/
+[2]: https://github.com/Abogical
