@@ -1,0 +1,19 @@
+---
+title: "Embedded"
+author: "Hagar Usama"
+date: "6/30/2020"
+output: html_document
+---
+
+## Lab Board {.tabset}
+### Bread Board
+<img src="images/bread_board.png" width="400" height="400">
+
+### PCB
+#### CH340 board
+<img src="images/pcb_ch340.png" width="400" height="400">
+
+### Acknowledgement
+Thank you for my team. It is all about your support:<br>
+* **Meeral Maged ElBorolosy** & **Mayssara Moëtez Omar** 🙏💙
+
