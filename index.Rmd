@@ -18,5 +18,6 @@ output: html_document
 * <a href="Serial Communication/Serial-Communication.html">Serial Communication</a>
 * <a href="Interrupts Programming/interrupts_programming.html">Interrupts Programming</a>
 * <a href="External Memory/External_Memory.html"> External Memory</a>
+* <a href="Lab/Lab-Board.html"> Lab Board</a>
 
 
